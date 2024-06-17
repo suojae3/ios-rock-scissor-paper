@@ -1,10 +1,6 @@
-//
-//  RockPaperScissors - main.swift
-//  Created by tacocat.
-//  Copyright © tastycode. All rights reserved.
-// 
 
 import Foundation
 
-print("Hello, World!")
-
+private let gameRules = GameRules()
+private let gameView = GameView(gameRules: gameRules)
+gameView.startGame()
